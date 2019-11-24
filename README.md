@@ -2,17 +2,26 @@
 Digital thermometer &amp; humidity meter based on : ATTINY13, DHT11 sensor, TM1637 LED 4 digit display
 
 This is very simple digital thermometer & humidity meter based on ATTINY 13 chip with DHT11 sensor and 4 digit LED display module TM1637.
+
 The code for DHT11 reading and TM1637 display was borrowed from Łukasz Podkalicki : https://blog.podkalicki.com/attiny13-reading-temperature-and-humidity-from-dht11/  and https://blog.podkalicki.com/attiny13-tm1637-library/  
-Both libraries work flawless.  
+Both libraries work flawless.  Thank You Lukasz for good work.
 
 Part List :
+
 1 x ATTINY 13 / ATTINY 13A - ATMEL chip
+
 1 x TM1637 4 digits module 
+
 1 x DHT11  humidity & temperature sensor
+
 1 x LM7805 voltage stabilizer ( if not powered from 5V)
+
 1 x 1N4007 diode ( if not powered from 5V, optional)
+
 1 x 470 uF - 2200 uF electrolitic capacitor (optional, but gives stability of measurements)
+
 1 x 47nF - 470nF capacitor (optional, but gives stability of measurements)
+
 
 
 Connection to be made :
