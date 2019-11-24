@@ -16,7 +16,7 @@ Part List :
 
 
 Connection to be made :
-Mandatory : all devices - ATTINY 13 , TM1637 , DHT 11 - have to be connected to VCC 5V and GND line ( I am using LM7805 to prpvide stable +5V power). 
+Mandatory : all components - ATTINY 13 , TM1637 , DHT 11 - have to be connected to VCC 5V and GND line ( I am using LM7805 to provide stable +5V power for all components). 
 
 Optional : Between 5V and GND please put 100nF capacitor. At the input of LM7805 please put electrolityc capacitor and diode to protect LM7805 from inverted voltage.
 
