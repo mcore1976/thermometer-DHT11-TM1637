@@ -5,8 +5,22 @@ This is very simple digital thermometer & humidity meter based on ATTINY 13 chip
 The code for DHT11 reading and TM1637 display was borrowed from Łukasz Podkalicki : https://blog.podkalicki.com/attiny13-reading-temperature-and-humidity-from-dht11/  and https://blog.podkalicki.com/attiny13-tm1637-library/  
 Both libraries work flawless.  
 
+Part List :
+1 x ATTINY 13 / ATTINY 13A - ATMEL chip
+1 x TM1637 4 digits module 
+1 x DHT11  humidity & temperature sensor
+1 x LM7805 voltage stabilizer ( if not powered from 5V)
+1 x 1N4007 diode ( if not powered from 5V, optional)
+1 x 470 uF - 2200 uF electrolitic capacitor (optional, but gives stability of measurements)
+1 x 47nF - 470nF capacitor (optional, but gives stability of measurements)
+
+
 Connection to be made :
-All devices : ATTINY 13 , TM1637 , DHT 11 - have to be connected to VCC 5V and GND line ( I am using LM7805 to prpvide stable +5V power):
+Mandatory : all devices - ATTINY 13 , TM1637 , DHT 11 - have to be connected to VCC 5V and GND line ( I am using LM7805 to prpvide stable +5V power). 
+
+Optional : Between 5V and GND please put 100nF capacitor. At the input of LM7805 please put electrolityc capacitor and diode to protect LM7805 from inverted voltage.
+
+The mandatory connections :
 
 ATTINY 13 - VCC is pin #8, GND is PIN #4
 
