@@ -51,3 +51,5 @@ TM1637 module - CLK LINE - connect to PB1 ( PIN #6 ) on ATTINY 13
 
 That's all. The code is 800 bytes long after compilatiion. Must be compiled by AVR-GCC environment on Linux or Windows.
 
+
+to see how it works - look here https://www.youtube.com/watch?v=r6nF1iJ2r-M
